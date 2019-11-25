@@ -1,2 +1,2 @@
 # Spopularity
-A look at the popularity of artists appearing on Spotify's one hundred most followed curated playlists
+This program uses the Pandas library to analyze popularity of artists on Spotify's curated playlists.
