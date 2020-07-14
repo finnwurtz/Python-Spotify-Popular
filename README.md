@@ -7,6 +7,6 @@ In this program, the first notebook queries the [Spotify](https://developer.spot
 
 When this program was run on March 30th, 2020, the five most popular spotify-curated playlists (and the five most popular artists within the top one hundred playlists) were as follows:
 
-  Most popular playlists: Today's Top Hits, Global Top 50, RapCaviar, ¡Viva Latino!, Songs to Sing in the Car
+  Most Popular Playlists: Today's Top Hits, Global Top 50, RapCaviar, ¡Viva Latino!, Songs to Sing in the Car
 
   Most Popular Artists: The Beatles, Drake, Justin Bieber, Coldplay, Ed Sheeran
