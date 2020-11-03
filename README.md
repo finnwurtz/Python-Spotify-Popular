@@ -7,6 +7,6 @@ In this program, the first notebook uses the [Spotipy](https://spotipy.readthedo
 
 When this program was run on October 12th, 2020:
 
-  The five most popular Spotify-curated playlists were Today's Top Hits, RapCaviar, Hot Country, ¡Viva Latino!, and New Music Friday
+  The 5 most popular Spotify-curated playlists were Today's Top Hits, RapCaviar, Hot Country, ¡Viva Latino!, and New Music Friday
 
-  The five most popular artists within the top one hundred playlists were Drake, The Beatles, The Weeknd, Justin Bieber, and Coldplay
+  The 5 most popular artists within the top 100 Spotify-curated playlists were Drake, The Beatles, The Weeknd, Justin Bieber, and Coldplay
