@@ -1,5 +1,5 @@
 # Python-Spotify-Popular
-This program uses the Pandas library to identify the artists whose music dominates Spotify's curated playlists.
+This program uses the Pandas library to identify the artists whose music prevails in Spotify's curated playlists.
 
 Technologies Used: Python, Pandas, Jupyter Notebooks, Spotipy, Spotify API
 
