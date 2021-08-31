@@ -1,12 +1,22 @@
 # Python-Spotify-Popular
-This program uses the Pandas library to identify the artists whose music dominates Spotify's curated playlists.
+This program uses the Pandas library to identify the artists whose music appears most frequently in Spotify's curated playlists.
 
 Technologies Used: Python, Pandas, Jupyter Notebooks, Spotipy, Spotify API
 
-In this program, the first notebook queries the [Spotify](https://developer.spotify.com/documentation/web-api/reference/) API with the [Spotipy](https://spotipy.readthedocs.io/en/2.16.0/) library to extract information about the hundreds of playlists that Spotify curates and promotes via its eponymous user account. The notebook then loads this information into a CSV database (all_playlists). Next, the second notebook extracts follower counts for each of these playlists, ranks the playlists by popularity, and loads a list of the most popular playlists into a second CSV database (top_100_playlists). Finally, the third notebook counts the number of times that each artist appears in the list of most popular playlists, ranks the artists accordingly, and loads a list of the most popular artists into a third CSV database (top_100_artists). The resulting data sheds light on the state of popular music on one of the world's most popular music streaming platforms.
+This program consists of three [Jupyter](https://jupyter.org/) notebooks. The first notebook uses the [Spotipy Library](https://spotipy.readthedocs.io/en/2.16.0/) to query the [Spotify API](https://developer.spotify.com/documentation/web-api/reference/), thereby extracting information about each of the playlists that Spotify curates and promotes using its [eponymous user account](https://open.spotify.com/user/spotify). It then loads this information into a CSV file (all_playlists). Next, the second notebook extracts follower counts for all of these playlists, ranks the playlists by follower count, and loads a list of the most followed playlists into a second CSV file (top_100_playlists). Finally, the third notebook counts the number of times that each artist appears in the list of most followed playlists, ranks the artists accordingly, and loads a list of the top 100 artists into a third CSV file (top_100_artists). The resulting data provide insight into the state of popular music on one of the world's most popular music streaming platforms.
 
-When this program was run on October 12th, 2020, the five most popular spotify-curated playlists (and the five most popular artists within the top one hundred playlists) were as follows:
+Listed below are the outputs from this program on October 12th, 2020.
 
-  Most Popular Playlists: Today's Top Hits, RapCaviar, Hot Country, ¡Viva Latino!, New Music Friday
+The 5 most popular Spotify-curated playlists were as follows:
+1. Today's Top Hits
+2. RapCaviar
+3. Hot Country
+4. ¡Viva Latino!
+5. New Music Friday
 
-  Most Popular Artists: Drake, The Beatles, The Weeknd, Justin Bieber, Coldplay
+The 5 most popular artists within the 100 most popular Spotify-curated playlists were as follows:
+1. Drake
+2. The Beatles
+3. The Weeknd
+4. Justin Bieber
+5. Coldplay
